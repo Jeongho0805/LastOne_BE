@@ -14,7 +14,7 @@
 - **프로젝트 명 : LastOne(라스트원)**
 - **프로젝트 기간 : 2023.02.15 ~ 2023.05.15**
 - **수정 & 리팩토리 기간 : 2023.05.16 ~ (진행중)**
-- **배포 링크 : https://last-one.xyz**
+- **배포 링크 : https://lastoneapp.vercel.app**
 
 <br/>
 
@@ -30,20 +30,35 @@
 
 
 </br>
+</br>
 
 ## 팀원 👨‍👨‍👧‍👧
 
 |                                           Backend                                           |                                              Backend                                                             |                                                                       Frontend                            |                                                              Designer                                                     |
 |:-------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=300px /> |        <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=300px />               |              <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.PNG" width=300px />   |          <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=300px />                       |
+| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=300px /> |        <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=300px />               |              <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.png" width=300px />   |          <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=300px />                       |
 |                            [박정호](https://github.com/Jeongho0805)                          |                                  [황규현](https://github.com/beetrbgus)                                         |                                           [배범수](https://github.com/Bsfla)                               |                                               [조규원](https://www.behance.net/ku_oni/moodboards)                         |
 
 
 </br>
+</br>
 
 ## 아키텍처 👨‍💻
 
-![아키텍처](https://github.com/Jeongho0805/demotest/assets/96610382/2d4d542f-7436-4e41-b01f-b8071def066e)
+<img src="https://github.com/Jeongho0805/demotest/blob/main/img/architecture.jpg" />
+
+<br/>
+</br>
+
+## API 명세서 📃
+
+<div align="center">
+  
+  **api 명세서 링크 - https://www.notion.so/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df**
+
+  <img src = "https://github.com/Jeongho0805/demotest/blob/main/img/api.jpg" height=800px />
+
+</div>
 
 
 
