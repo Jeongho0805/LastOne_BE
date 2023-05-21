@@ -30,6 +30,7 @@
 
 
 </br>
+</br>
 
 ## 팀원 👨‍👨‍👧‍👧
 
@@ -40,12 +41,14 @@
 
 
 </br>
+</br>
 
 ## 아키텍처 👨‍💻
 
 <img src="https://github.com/Jeongho0805/demotest/blob/main/img/architecture.jpg" />
 
 <br/>
+</br>
 
 ## API 명세서 📃
 
