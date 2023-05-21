@@ -54,7 +54,7 @@
 
 <div align="center">
   
-  **api 명세서 링크 - https://www.notion.so/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df**
+  **[api 명세서 ](https://www.notion.so/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df)**
 
   <img src = "https://github.com/Jeongho0805/demotest/blob/main/img/api.jpg" height=800px />
 
