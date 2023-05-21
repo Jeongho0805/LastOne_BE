@@ -35,7 +35,7 @@
 
 |                                           Backend                                           |                                              Backend                                                             |                                                                       Frontend                            |                                                              Designer                                                     |
 |:-------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=300px /> |        <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=300px />               |              <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.PNG" width=300px />   |          <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=300px />                       |
+| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=300px /> |        <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=300px />               |              <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.png" width=300px />   |          <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=300px />                       |
 |                            [박정호](https://github.com/Jeongho0805)                          |                                  [황규현](https://github.com/beetrbgus)                                         |                                           [배범수](https://github.com/Bsfla)                               |                                               [조규원](https://www.behance.net/ku_oni/moodboards)                         |
 
 
@@ -43,7 +43,7 @@
 
 ## 아키텍처 👨‍💻
 
-![아키텍처](https://github.com/Jeongho0805/demotest/assets/96610382/2d4d542f-7436-4e41-b01f-b8071def066e)
+<img src="https://github.com/Jeongho0805/demotest/blob/main/img/architecture.jpg" />
 
 
 
