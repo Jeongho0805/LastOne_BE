@@ -60,6 +60,9 @@
 
 </div>
 
+## 쿼리 성능 개선 목록
+[마이페이지 조회](https://www.notion.so/fc6ea7fc87b14e77b340184e3fd59f27)
+
 
 
 
