@@ -14,7 +14,7 @@
 - **프로젝트 명 : LastOne(라스트원)**
 - **프로젝트 기간 : 2023.02.15 ~ 2023.05.15**
 - **수정 & 리팩토리 기간 : 2023.05.16 ~ (진행중)**
-- **배포 링크 : https://lastoneapp.vercel.app**
+- **배포 링크 : [https://lastoneapp.vercel.app](https://last-one-front-end.vercel.app/)**
 
 <br/>
 
