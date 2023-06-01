@@ -73,7 +73,7 @@
 
 ## 쿼리 성능 개선 목록 📈
 
-[마이페이지 조회](https://www.notion.so/fc6ea7fc87b14e77b340184e3fd59f27) 
+[마이페이지 조회](https://tough-echinacea-3e3.notion.site/fc6ea7fc87b14e77b340184e3fd59f27) 
 
 100만 건 데이터 기준 쿼리 성능 0.01sec
 
