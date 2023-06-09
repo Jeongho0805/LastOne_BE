@@ -84,7 +84,7 @@
 
 ### ✔️ 모집글 상세 조회
 
-**100만 건 데이터 기준 쿼리 성능 (0.03sec ➡️ 0.002sec) 0.028초 가량 단축** (DTO 조회 방식에서 Entity 조회 방식으로 변경, Fetch Join 활용) [링크](https://tough-echinacea-3e3.notion.site/b6df147dd39248a0935fa2e04b063f5c?pvs=4)
+**(0.03sec ➡️ 0.002sec) 0.028초 가량 단축** (DTO 조회 방식에서 Entity 조회 방식으로 변경, Fetch Join 활용) [링크](https://tough-echinacea-3e3.notion.site/b6df147dd39248a0935fa2e04b063f5c?pvs=4)
 
 
 
