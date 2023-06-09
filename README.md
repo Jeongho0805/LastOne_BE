@@ -18,7 +18,7 @@
 
 <br/>
 
-## 소개 :information_desk_person:
+## :information_desk_person: 소개
 
 - 운동 메이트 없이 혼자 헬스하기 지겨우신가요?
 - 운동 보조가 있으면 근성장이 될 것 같은 생각이 드시나요?
@@ -26,13 +26,13 @@
 
 <br/>
 
-## 주요 기능 미리보기 👀
+## 👀 주요 기능 미리보기
 
 
 </br>
 </br>
 
-## 팀원 👨‍👨‍👧‍👧
+## 👨‍👨‍👧‍👧팀원 
 
 
 |                                           Backend                                           |                                           Backend                                           |                                          Designer                                          |                                           Frontend                                         |                                                          Frontend                                                         |                                                          Frontend                                                          |
@@ -47,20 +47,18 @@
 </br>
 </br>
 
-## 아키텍처 👨‍💻
+## 👨‍💻 아키텍처
 
 <img src="https://github.com/Jeongho0805/demotest/blob/main/img/architecture.jpg" />
 
 <br/>
 </br>
 
-## API 명세서 📃
+## 📃 API 명세서 [링크](https://www.notion.so/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df)
 
 <div align="center">
   
-  **[ API 명세서 링크](https://www.notion.so/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df)**
-
-  <img src = "https://github.com/Jeongho0805/demotest/blob/main/img/api.jpg" height=800px />
+  <img src = "https://github.com/Jeongho0805/LastOne_BE/assets/96610382/2e86f2ef-6e66-4ce6-8fe7-a0d3d471bc63.jpg" height=800px />
 
 </div>
 
