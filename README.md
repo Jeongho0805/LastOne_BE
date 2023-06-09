@@ -54,7 +54,7 @@
 <br/>
 </br>
 
-## 📃 API 명세서 [링크](https://www.notion.so/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df)
+## 📃 API 명세서 [링크](https://six-skirt-6ca.notion.site/19f4bc4659d840a1a295bb571da01b7f?v=e3b86639da3143fd96d74c89b500e8df&pvs=4)
 
 <div align="center">
   
