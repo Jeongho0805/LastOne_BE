@@ -66,19 +66,27 @@
 <br/>
 <br/>
 
-## 쿼리 성능 개선 목록 📈
+## 📈 쿼리 성능 개선 목록
 
-### ☝️ 마이페이지 조회 
+### ✔️ 마이페이지 조회 
 
-100만 건 데이터 기준 쿼리 성능 0.01sec [상세 링크](https://tough-echinacea-3e3.notion.site/fc6ea7fc87b14e77b340184e3fd59f27)
+**100만 건 데이터 기준 쿼리 성능 0.01sec** [링크](https://tough-echinacea-3e3.notion.site/fc6ea7fc87b14e77b340184e3fd59f27?pvs=4)
 
 <br/>
 
-### ☝️ 모집글 목록조회
+### ✔️ 모집글 목록조회
 
-조건이 없을 경우 :  (3.959sec ➡️ 0.141sec) 3초 가량 단축 (FetchJoin 및 BatchSize 활용) [상세 링크](https://tough-echinacea-3e3.notion.site/0d76058a9a674e3ab861653b932bb828)
+**조건이 없을 경우 : (3.959sec ➡ 0.141sec) 3초 가량 단축** (FetchJoin 및 BatchSize 활용) [링크](https://tough-echinacea-3e3.notion.site/0d76058a9a674e3ab861653b932bb828?pvs=4)
 
-조건이 있을 경우 : 
+**조건이 있을 경우 : (6.240sec ➡ 0.22sec) 6초 가량 단축** (날짜 역순 인덱스 및 ngram 방식 Full Text Index 활용) [링크](https://tough-echinacea-3e3.notion.site/01310350921244e5a4339e4d9f3505ff?pvs=4)
+
+<br/>
+
+### ✔️ 모집글 상세 조회
+
+**100만 건 데이터 기준 쿼리 성능 (0.03sec ➡️ 0.002sec) 0.028초 가량 단축** (DTO 조회 방식에서 Entity 조회 방식으로 변경, Fetch Join 활용) [링크](https://tough-echinacea-3e3.notion.site/b6df147dd39248a0935fa2e04b063f5c?pvs=4)
+
+
 
 
 
