@@ -14,7 +14,7 @@
 - **프로젝트 명 : LastOne(라스트원)**
 - **프로젝트 기간 : 2023.02.15 ~ 2023.05.15**
 - **수정 & 리팩토리 기간 : 2023.05.16 ~ (진행중)**
-- **배포 링크 : [https://lastoneapp.vercel.app](https://last-one-front-end.vercel.app/)**
+- **[배포 링크 바로가기](https://health-partner-last1.netlify.app/)**
 
 <br/>
 
@@ -37,7 +37,7 @@
 
 |                                           Backend                                           |                                           Backend                                           |                                          Designer                                          |                                           Frontend                                         |                                                          Frontend                                                         |                                                          Frontend                                                          |
 |:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/assets/96610382/be84e7d3-e4ad-4207-b03c-fd0b43c29d0b.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/assets/96610382/7fe6822a-174e-4b92-8c26-b7b0571a359c.png" width=400px /> | 
+| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.png" width=400px /> | ![이하람](https://github.com/Jeongho0805/demotest/assets/96610382/9c507bb2-c2e1-4a31-800d-69a880648bc9) width=400px /> | <img src="https://github.com/Jeongho0805/demotest/assets/96610382/7fe6822a-174e-4b92-8c26-b7b0571a359c.png" width=400px /> | 
 |                            [박정호](https://github.com/Jeongho0805)                            |                             [황규현](https://github.com/beetrbgus)                        |                      [조규원](https://www.behance.net/ku_oni/moodboards)                    |                              [배범수](https://github.com/Bsfla)                            |                                             [이하람](https://github.com/HalamLee)                                           |                                             [김태영](https://github.com/overtae)                                           |
 
 
