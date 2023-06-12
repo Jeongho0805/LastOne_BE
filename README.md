@@ -37,7 +37,7 @@
 
 |                                           Backend                                           |                                           Backend                                           |                                          Designer                                          |                                           Frontend                                         |                                                          Frontend                                                         |                                                          Frontend                                                          |
 |:-------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.png" width=400px /> | ![이하람](https://github.com/Jeongho0805/demotest/assets/96610382/9c507bb2-c2e1-4a31-800d-69a880648bc9) width=400px /> | <img src="https://github.com/Jeongho0805/demotest/assets/96610382/7fe6822a-174e-4b92-8c26-b7b0571a359c.png" width=400px /> | 
+| <img src="https://github.com/Jeongho0805/demotest/blob/main/img/jeongho.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/Kyuhyun.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/gyuwon.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/beomsu.png" width=400px /> |  <img src="https://github.com/Jeongho0805/demotest/blob/main/img/haram.png" width=400px /> | <img src="https://github.com/Jeongho0805/demotest/blob/main/img/taeyoung.png" width=400px /> | 
 |                            [박정호](https://github.com/Jeongho0805)                            |                             [황규현](https://github.com/beetrbgus)                        |                      [조규원](https://www.behance.net/ku_oni/moodboards)                    |                              [배범수](https://github.com/Bsfla)                            |                                             [이하람](https://github.com/HalamLee)                                           |                                             [김태영](https://github.com/overtae)                                           |
 
 
@@ -58,7 +58,7 @@
 
 <div align="center">
   
-  <img src = "https://github.com/Jeongho0805/LastOne_BE/assets/96610382/2e86f2ef-6e66-4ce6-8fe7-a0d3d471bc63.jpg" height=800px />
+  <img src = "https://github.com/Jeongho0805/demotest/blob/main/img/api.png" height=800px />
 
 </div>
 
