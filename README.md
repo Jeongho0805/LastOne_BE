@@ -58,7 +58,7 @@
 
 <div align="center">
   
-  <img src = "https://github.com/Jeongho0805/demotest/blob/main/img/api.png" height=800px />
+  <img src = "https://github.com/Jeongho0805/demotest/blob/main/img/api.png" height=600px />
 
 </div>
 
