@@ -13,10 +13,7 @@ import com.lastone.core.domain.member.Member;
 import com.lastone.core.domain.recruitment.Recruitment;
 import com.lastone.core.domain.recruitment_img.RecruitmentImg;
 import com.lastone.core.dto.gym.GymDto;
-import com.lastone.core.dto.recruitment.RecruitmentDetailDto;
-import com.lastone.core.dto.recruitment.RecruitmentListDto;
-import com.lastone.core.dto.recruitment.RecruitmentRequestDto;
-import com.lastone.core.dto.recruitment.RecruitmentSearchCondition;
+import com.lastone.core.dto.recruitment.*;
 import com.lastone.core.util.mapper.GymMapper;
 import com.lastone.core.repository.gym.GymRepository;
 import com.lastone.core.repository.member.MemberRepository;
@@ -65,7 +62,8 @@ public class RecruitmentServiceImpl implements RecruitmentService {
 
     @Override
     public RecruitmentDetailDto getDetail(Long recruitmentId) {
-        RecruitmentDetailDto recruitmentDetailDto = recruitmentRepository.getDetailDto(recruitmentId).orElseThrow(RecruitmentNotFoundException::new);
+        Recruitment recruitment = recruitmentRepository.getDetail(recruitmentId).orElseThrow(RecruitmentNotFoundException::new);
+        RecruitmentDetailDto recruitmentDetailDto = RecruitmentDetailDto.toDto(recruitment);
         recruitmentDetailDto.setSbdDto(sbdRepository.findLatestRecordByMemberId(recruitmentDetailDto.getMemberId()));
         return recruitmentDetailDto;
     }
@@ -77,7 +75,7 @@ public class RecruitmentServiceImpl implements RecruitmentService {
 
     @Transactional(rollbackFor = Exception.class)
     @Override
-    public void createRecruitment(Long memberId, RecruitmentRequestDto recruitmentRequestDto, List<MultipartFile> imgFiles) throws IOException {
+    public Long createRecruitment(Long memberId, RecruitmentRequestDto recruitmentRequestDto, List<MultipartFile> imgFiles) throws IOException {
         Gym gym = findGym(recruitmentRequestDto.getGym());
         Member member = memberRepository.findById(memberId).orElseThrow(MemberNotFountException::new);
         Recruitment recruitment = Recruitment.create(member, gym, recruitmentRequestDto);
@@ -85,7 +83,8 @@ public class RecruitmentServiceImpl implements RecruitmentService {
         if (imgFileIsExist(imgFiles)) {
             recruitment.setImgFiles(saveRecruitmentImg(imgFiles));
         }
-        recruitmentRepository.save(recruitment);
+        Recruitment saveRecruitment = recruitmentRepository.save(recruitment);
+        return saveRecruitment.getId();
     }
 
     @Transactional(rollbackFor = Exception.class)
@@ -109,6 +108,14 @@ public class RecruitmentServiceImpl implements RecruitmentService {
         validateWriterAndMember(recruitment.getMember().getId(), memberId);
         deleteImgFile(recruitment.getRecruitmentImgs());
         recruitment.delete();
+    }
+
+    @Override
+    public RecruitmentApplyStatusForMember isAlreadyApplyRecruitment(Long recruitmentId, Long memberId) {
+        Recruitment recruitment = recruitmentRepository.findById(recruitmentId).orElseThrow(RecruitmentNotFoundException::new);
+        boolean result = recruitment.getApplications().stream()
+                .anyMatch(application -> application.getApplicant().getId().equals(memberId));
+        return new RecruitmentApplyStatusForMember(result);
     }
 
     private void updateImgFiles(Recruitment recruitment, List<MultipartFile> imgFiles) throws IOException {

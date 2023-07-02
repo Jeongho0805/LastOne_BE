@@ -24,6 +24,7 @@ public class RecruitmentDetailDto {
 
     private Long memberId;
     private String nickname;
+    private String gender;
     private String profileUrl;
     private String workoutPurpose;
     private SbdDto sbd;
@@ -34,10 +35,10 @@ public class RecruitmentDetailDto {
     private PreferGender preferGender;
     private List<String> imgUrls;
     @JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy.MM.dd 'T' HH:mm")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy.MM.dd HH:mm")
     private LocalDateTime startedAt;
     @JsonDeserialize(using = LocalDateTimeDeserializer.class)
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy.MM.dd 'T' HH:mm")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy.MM.dd HH:mm")
     private LocalDateTime createdAt;
 
 
@@ -53,6 +54,7 @@ public class RecruitmentDetailDto {
                 .memberId(recruitment.getMember().getId())
                 .nickname(recruitment.getMember().getNickname())
                 .profileUrl(recruitment.getMember().getProfileUrl())
+                .gender(recruitment.getMember().getGender())
                 .workoutPurpose(recruitment.getMember().getWorkoutPurpose())
                 .imgUrls(toImgUrls(recruitment.getRecruitmentImgs()))
                 .build();
