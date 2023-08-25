@@ -2,7 +2,8 @@
 
 <div align="center">
   
-  ![image](https://github.com/Jeongho0805/LastOne_BE/assets/96610382/7c2d9006-180b-416c-bb20-bd477ee97e86)
+  ![image](https://github.com/Jeongho0805/LastOne_BE/assets/96610382/4ee0e055-f2b9-40e7-ab21-d908a971bb1e)
+
 
   ###  마지막 한 세트를 위한 헬스 메이트 찾기 Last One
 
